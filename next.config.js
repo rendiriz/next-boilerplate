@@ -2,8 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['placehold.co'],
+  },
   experimental: {
-    images: { allowFutureImage: true },
+    nextScriptWorkers: true,
   },
 };
 
