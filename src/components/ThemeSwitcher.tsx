@@ -10,6 +10,7 @@ const ThemeSwitcher = () => {
 
   return (
     <button
+      aria-label="Toggle Theme Switcher"
       type="button"
       className="inline-flex items-center justify-center rounded-md p-2 text-gray-800 dark:text-gray-50 hover:bg-gray-50 hover:dark:bg-gray-800"
       onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
